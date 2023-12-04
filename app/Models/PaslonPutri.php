@@ -15,6 +15,10 @@ class PaslonPutri extends Model
     ];
 
     public $fillable = [
-        'name', 'count_vote', 'path', 'asal_daerah'
+        'nomor_urut',
+        'name', 
+        'count_vote', 
+        'path', 
+        'persentase',
     ];
 }

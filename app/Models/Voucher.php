@@ -15,6 +15,7 @@ class Voucher extends Model
     ];
 
     public $fillable = [
-        'kode_voucher', 'nominal'
+        'kode_voucher', 
+        'nominal'
     ];
 }

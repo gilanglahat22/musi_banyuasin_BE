@@ -116,5 +116,21 @@ class PaslonPutriSeeder extends Seeder
             'path' => 'Nafisa_Ghany_Putri.JPG',
             'persentase' => 0,
         ]);
+
+        PaslonPutri::create([
+            'nomor_urut' => '28',
+            'name'   => "Arine Suci Dewanty",
+            'count_vote' => 0,
+            'path' => 'Arine_Suci_Putri.JPG',
+            'persentase' => 0,
+        ]);
+
+        PaslonPutri::create([
+            'nomor_urut' => '30',
+            'name'   => "Diva Nanda Fransiska",
+            'count_vote' => 0,
+            'path' => 'Diva_Nanda_Putri.JPG',
+            'persentase' => 0,
+        ]);
     }
 }

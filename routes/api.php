@@ -19,9 +19,9 @@ use App\Http\Controllers\VoucherArchiveController;
 |
 */
 
-Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
-    return $request->user();
-});
+// Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
+//     return $request->user();
+// });
 
 Route::middleware(['cors'])->group(function () {
     Route::apiResource('/paslon_putras', PaslonPutraController::class);
